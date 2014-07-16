@@ -1,0 +1,35 @@
+<html>
+<head>
+<meta charset="Windows-31J">
+<title>ユーザ情報登録</title>
+</head>
+
+<body>
+<center>
+
+  <h1> ユーザ情報登録 </h1>
+  <br><hr><br>
+
+  登録するユーザ情報を入力してください。<br><br>
+
+  <form action="/advance05/control" method="POST">
+  <table border="1">
+    <tr>
+      <th>氏名</th>
+      <td><input type="text" name="name"></td>
+    </tr>
+    <tr>
+      <th>パスワード</th>
+      <td><input type="password" name="password"></td>
+    </tr>
+  </table>
+
+  <br>
+  <input type="hidden" name="action" value="regist">
+  <input type="submit" value="追加"><br>
+
+  </form>
+
+</center>
+</body>
+</html>

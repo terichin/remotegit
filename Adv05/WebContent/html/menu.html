@@ -1,0 +1,45 @@
+<html>
+<head>
+<meta charset="Windows-31J">
+<title>メニュー画面</title>
+</head>
+
+<body>
+<center>
+  <h1> 処理メニュー </h1>
+  <br><hr><br>
+</center>
+  <ul>
+    <li>ユーザ登録
+    <form action="/advance05/control" method="POST">
+        <input type="hidden" name="action" value="add">
+        <input type="submit" value="登録">
+    </form>
+
+    <li>ユーザ1件検索
+    <form action="/advance05/control" method="POST">
+        <input type="hidden" name="action" value="search">
+        <input type="submit" value="検索">
+    </form>
+
+    <li>ユーザ全検索
+    <form action="/advance05/control" method="POST">
+      <input type="hidden" name="action" value="searchall">
+      <input type="submit" value="検索">
+    </form>
+
+    <li>電話番号全検索
+    <form action="/advance05/control" method="POST">
+      <input type="hidden" name="action" value="searchallcontact">
+      <input type="submit" value="検索">
+    </form>
+
+    <li>ログアウト
+    <form action="/advance05/control" method="POST">
+      <input type="hidden" name="action" value="logout">
+      <input type="submit" value="ログアウト">
+    </form>
+  </ul>
+
+</body>
+</html>

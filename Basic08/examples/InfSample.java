@@ -1,0 +1,3 @@
+interface InfSample {
+    void print();
+}
