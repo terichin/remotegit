@@ -1,0 +1,3 @@
+interface MultiInterfSample {
+    void sayHello();
+}
