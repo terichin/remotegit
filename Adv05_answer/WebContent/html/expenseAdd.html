@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>経費登録</title>
+</head>
+
+<body>
+<center>
+
+  <h1> 経費登録 </h1>
+  <br><hr><br>
+
+  登録する経費情報を入力してください。<br><br>
+
+  <form action="/advance05/control" method="POST">
+  <table border="1">
+    <tr>
+      <th>日付</th>
+      <td><input type="text" name="usedate"></td>
+    </tr>
+    <tr>
+      <th>用途</th>
+      <td><input type="text" name="use"></td>
+    </tr>
+    <tr>
+      <th>費用</th>
+      <td><input type="text" name="cost"></td>
+    </tr>
+  </table>
+
+  <br>
+  <input type="hidden" name="action" value="expenseregist">
+  <input type="submit" value="追加"><br>
+
+  </form>
+
+</center>
+</body>
+</html>

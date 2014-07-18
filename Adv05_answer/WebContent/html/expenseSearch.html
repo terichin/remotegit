@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>指定ユーザの経費検索</title>
+</head>
+
+<body>
+<center>
+
+  <h1> 指定ユーザの経費検索 </h1>
+  <br><hr><br>
+
+  経費を検索するユーザIDを入力してください。<br><br>
+
+  <form action="/advance05/control" method="POST">
+  <table border="1">
+    <tr>
+      <th>ID</th>
+      <td><input type="text" name="EMPID"></td>
+    </tr>
+  </table>
+
+  <br>
+  <input type="hidden" name="action" value="searchexpenseuser">
+  <input type="submit" value="検索"><br>
+
+  </form>
+
+</center>
+</body>
+</html>
