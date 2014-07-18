@@ -1,0 +1,21 @@
+<!-- 2つの入力項目を表示し、2つの数値の任意の四則演算の実行要求をするHTML -->
+<html>
+<head><title>CalculationInput3.html</title></head>
+<body>
+<h2>
+数値を2つ入力してください。
+<!-- 2つの数値を入力する項目を生成します -->
+<form action="/advance03/calculation3" method="POST">
+  <input type="text" name="NUM1">
+  <select name="OPERATOR">
+    <option value="1">+</option>
+    <option value="2">-</option>
+    <option value="3">*</option>
+    <option value="4">/</option>
+  </select>
+  <input type="text" name="NUM2">
+  <input type="submit" value="送信">
+</form>
+</h2>
+</body>
+</html>

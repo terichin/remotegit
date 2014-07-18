@@ -1,0 +1,16 @@
+<!-- 金額入力項目を持ったHTML -->
+<html>
+<head>
+<meta charset="Windows-31J">
+<title>PriceInput.html</title>
+</head>
+<body>
+<h2>金額を入力すると、価格、税額、税込価格を表示します。</h2>
+<!-- 入力項目はformタグとinputタグで生成します -->
+<!-- formタグのmethod属性はPOSTに設定してください -->
+<form action="/advance03/calculation2" method="POST">
+  金額：<input type="text" name="PRICE">
+  <input type="submit" value="送信">
+</form>
+</body>
+</html>

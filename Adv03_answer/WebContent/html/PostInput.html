@@ -1,0 +1,16 @@
+<!-- 部署テーブルデータの入力項目を持つHTML -->
+<html>
+<head><title>PostInput.html</title></head>
+<body>
+<h2>
+部署情報を入力してください。
+<!-- 部署の入力項目を生成します -->
+<form action="/advance03/postadd" method="POST">
+  ID: <input type="text" name="ID"><br>
+  部署名: <input type="text" name="POSTNAME"><br>
+  上司ID: <input type="text" name="BOSSID"><br>
+  <input type="submit" value="送信">
+</form>
+</h2>
+</body>
+</html>

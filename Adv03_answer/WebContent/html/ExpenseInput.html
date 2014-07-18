@@ -1,0 +1,21 @@
+<!-- 経費テーブルデータの入力項目を持つHTML -->
+<html>
+<head>
+<meta charset="Windows-31J">
+<title>ExpenseInput.html</title>
+</head>
+<body>
+<h2>
+経費情報を入力してください。
+<!-- 経費の入力項目を生成します -->
+<form action="/advance03/expenseadd" method="POST">
+  経費ID: <input type="text" name="EXID"><br>
+  ID: <input type="text" name="ID"><br>
+  日付: <input type="text" name="DATE"><br>
+  用途: <input type="text" name="USE"><br>
+  金額: <input type="text" name="COST"><br>
+  <input type="submit" value="送信">
+</form>
+</h2>
+</body>
+</html>
