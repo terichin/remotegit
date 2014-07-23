@@ -1,0 +1,60 @@
+<html>
+<head>
+<title>ユニバ電器ユーザ情報変更</title>
+</head>
+
+<body>
+<center>
+
+  <h1> ユニバ電器　ユーザ情報変更 </h1>
+  <br><hr><br>
+
+  下記ユーザ情報を修正します。<br>
+  削除する場合は削除ボタンを押してください。<br><br>
+
+  <form action="/univelec/control" method="POST">
+  <table border="1">
+    <tr>
+      <th>ユーザコード</th>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>氏名</th>
+      <td><input type="text" value="データ一郎"></td>
+    </tr>
+    <tr>
+      <th>かな</th>
+      <td><input type="text" value="でーたいちろう"></td>
+    </tr>
+    <tr>
+      <th>電話番号</th>
+      <td><input type="text" value="03-1111-2222"></td>
+    </tr>
+    <tr>
+      <th>メールアドレス</th>
+      <td><input type="text" value="ichiro@example.com"></td>
+    </tr>
+    <tr>
+      <th>パスワード</th>
+      <td><input type="password" value="password"></td>
+    </tr>
+    <tr>
+      <th>ユーザ権限</th>
+      <td>オペレータ <input type="checkbox"></td>
+    </tr>
+  </table>
+
+  <br>
+  <input type="hidden" name="action" value="p302-edit">
+  <input type="submit" value="変更"><br>
+  </form>
+
+  <form action="/univelec/control" method="POST">
+  <input type="hidden" name="userId" value="00001">
+  <input type="hidden" name="action" value="p302-delete">
+  <input type="submit" value="削除"><br>
+  </form>
+
+</center>
+</body>
+</html>

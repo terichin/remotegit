@@ -1,0 +1,54 @@
+<html>
+<head>
+<meta charset="Windows-31J">
+<title>ユニバ電器商品検索結果</title>
+</head>
+
+<body>
+<center>
+
+  <h1> ユニバ電器　商品検索結果 </h1>
+  <br><hr><br>
+
+  購入したい商品の商品番号を入力し、選択ボタンを押してください。<br><br>
+
+  <table border="1">
+    <tr>
+      <th>商品番号</th>
+      <th>商品名</th>
+      <th>価格</th>
+    </tr>
+
+    <tr>
+      <td>1</td>
+      <td>SHARP Mebius</td>
+      <td>\ 75000</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>東芝 Dynabook</td>
+      <td>\ 85000</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>SONY VAIO</td>
+      <td>\ 115000</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>IBM ThinkPad</td>
+      <td>\ 155000</td>
+    </tr>
+
+  </table>
+
+  <br>
+  <form action="P102-itemorder.html" method="POST">
+    商品番号：<input type="text" name="itemNo">
+    <input type="hidden" name="action" value="p101-select">
+    <input type="submit" value="選択">
+  </form>
+
+</center>
+</body>
+</html>
