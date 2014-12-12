@@ -1,0 +1,42 @@
+2014-12-12 09:59:52,836 [INFO ] Page1View render - 社員 or 人事部担当者を選択してください。
+2014-12-12 09:59:52,836 [INFO ] Page1View render - 1 社員
+2014-12-12 09:59:52,836 [INFO ] Page1View render - 2 人事担当者
+2014-12-12 09:59:56,299 [INFO ] InputUtility inputString - 2
+2014-12-12 09:59:56,377 [INFO ] Page2View render - モードを選択してください
+2014-12-12 09:59:56,377 [INFO ] Page2View render - 1 社員情報登録
+2014-12-12 09:59:56,377 [INFO ] Page2View render - 2 社員情報変更
+2014-12-12 09:59:56,377 [INFO ] Page2View render - 3 社員情報削除
+2014-12-12 09:59:56,377 [INFO ] Page2View render - 4 社員情報検索
+2014-12-12 09:59:56,377 [INFO ] Page2View render - 5 終了
+2014-12-12 10:00:02,695 [INFO ] InputUtility inputString - 4
+2014-12-12 10:00:02,695 [INFO ] Page3View render - 社員検索を行います。
+2014-12-12 10:00:02,695 [INFO ] Page3View render - 社員の検索キーを選択してください。
+2014-12-12 10:00:02,695 [INFO ] Page3View render - 1 社員コード
+2014-12-12 10:00:02,695 [INFO ] Page3View render - 2 社員名
+2014-12-12 10:00:02,695 [INFO ] Page3View render - 3 部署
+2014-12-12 10:00:02,695 [INFO ] Page3View render - 4 資格
+2014-12-12 10:00:02,695 [INFO ] Page3View render - 5 特技
+2014-12-12 10:00:02,695 [INFO ] Page3View render - 6 趣味
+2014-12-12 10:00:02,695 [INFO ] Page3View render - 7 出身
+2014-12-12 10:00:04,505 [INFO ] InputUtility inputString - 1
+2014-12-12 10:00:04,505 [INFO ] Page4View render - 社員コードで社員検索を行います。
+2014-12-12 10:00:04,505 [INFO ] Page4View render - 検索キーワードを入力してください。
+2014-12-12 10:00:06,066 [INFO ] InputUtility inputString - 12
+2014-12-12 10:00:06,129 [INFO ] Page5View render - 検索結果は以下です。
+2014-12-12 10:00:06,129 [INFO ] Page5View render - 社員コード：0000012
+2014-12-12 10:00:06,129 [INFO ] Page5View render - 社員名　　：山本ゆかり
+2014-12-12 10:00:06,129 [INFO ] Page5View render - 部署　　　：開発部
+2014-12-12 10:00:06,129 [INFO ] Page5View render - 資格　　　：基本情報処理２
+2014-12-12 10:00:06,129 [INFO ] Page5View render - 特技　　　：ビリヤード
+2014-12-12 10:00:06,129 [INFO ] Page5View render - 趣味　　　：音楽鑑賞
+2014-12-12 10:00:06,129 [INFO ] Page5View render - 出身　　　：北海道
+2014-12-12 10:00:06,129 [INFO ] Page5View render - 社員コード：0000123
+2014-12-12 10:00:06,129 [INFO ] Page5View render - 社員名　　：伊藤健一
+2014-12-12 10:00:06,129 [INFO ] Page5View render - 部署　　　：開発部
+2014-12-12 10:00:06,129 [INFO ] Page5View render - 資格　　　：ネットワークSP
+2014-12-12 10:00:06,129 [INFO ] Page5View render - 特技　　　：ビリヤード
+2014-12-12 10:00:06,129 [INFO ] Page5View render - 趣味　　　：音楽鑑賞
+2014-12-12 10:00:06,129 [INFO ] Page5View render - 出身　　　：山形県
+2014-12-12 10:00:06,129 [INFO ] Page5View render - 次のアクションを選択してください。
+2014-12-12 10:00:06,129 [INFO ] Page5View render - 1 モード選択に戻る
+2014-12-12 10:00:06,129 [INFO ] Page5View render - 2 検索キー選択に戻る
