@@ -8,8 +8,8 @@ public class NewCommonDAO {
 	private static final String DRIVER_NAME = "org.postgresql.Driver";
 	private static final String DB_URL = "jdbc:postgresql://localhost:5432/univ";
 	private static final String DB_USER = "postgres";
-//	private static final String DB_PASSWORD = "postgres";
-	private static final String DB_PASSWORD = "Univ2014";
+	private static final String DB_PASSWORD = "postgres";
+//	private static final String DB_PASSWORD = "Univ2014";
 
 	protected Connection conn;
 
