@@ -1,7 +1,7 @@
 import java.util.HashMap;
 
 class Information {
-    public static void main(String[] args[]) {
+    public static void main(String[] args) {
         // 必要な情報を作成する。
         MemberDTO member1 = new MemberDTO("データ一郎", 24);
         MemberDTO member2 = new MemberDTO("ユニバ花子", 23);
