@@ -9,8 +9,8 @@ public class NewCommonDAO {
 	// データベース接続ユーザ
 	private static final String DB_USER = "postgres";
 	// データベース接続パスワード
-//	private static final String DB_PASSWORD = "postgres";
-	private static final String DB_PASSWORD = "Univ2014";
+	private static final String DB_PASSWORD = "postgres";
+//	private static final String DB_PASSWORD = "Univ2014";
 
 	// データベースコネクション
 	protected Connection conn;
