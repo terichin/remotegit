@@ -8,8 +8,8 @@ import java.sql.*;
 public class CommonDAO {
 
 	// データベース接続パスワード
-//	private static final String DB_PASSWORD = "postgres";
-	private static final String DB_PASSWORD = "Univ2014";
+	private static final String DB_PASSWORD = "postgres";
+//	private static final String DB_PASSWORD = "Univ2014";
 
 	// データベース接続URL
 	private static final String DB_URL =
